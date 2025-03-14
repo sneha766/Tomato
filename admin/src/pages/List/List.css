@@ -1,0 +1,20 @@
+@import "tailwindcss";
+.list{
+    width: 75%;
+}
+.list-table-format{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1.5fr 1.5fr 1fr;
+    align-items: center;
+    column-gap: 100px;
+    padding: 10px 10px;
+    border: 1px solid hsl(0, 0%, 79%);
+    font-size: 16px;
+    margin: 10px;
+    margin-left: 30px;
+}
+.list .s{
+    font-size: 28px;
+    margin: 40px 10px 10px 30px;
+}

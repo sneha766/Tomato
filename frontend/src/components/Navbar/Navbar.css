@@ -1,0 +1,83 @@
+@import "tailwindcss";
+.navbar{
+    margin-top: 10px;
+}
+.navbar .active{
+    border-bottom: 2px solid grey;
+}
+li{
+    cursor: pointer;
+    transition: 0.2s;
+}
+@media(max-width : 1050px){
+    .navbar .logo{
+        width : 140px;   
+    }
+    .navbar-menu{
+        gap:20px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap:30px;
+    }
+    .navbar-right img{
+        width: 22px;
+    }
+    .dot1{
+        left: 69px;    }
+}
+@media(max-width : 900px){
+    .navbar .logo{
+        width : 120px;   
+    }
+    .navbar-menu{
+        gap:15px;
+        font-size: 16px;
+    }
+    .navbar-right{
+        gap:20px;
+    }
+    .navbar-right img{
+        width: 20px;
+    }
+    .dot1{
+        left: 57px;    
+    }
+}
+@media(max-width : 750px){
+    .navbar-menu{
+        display: none;
+    }
+}
+.navbar-profile{
+   position: relative;
+   margin-top: 8px;
+   
+}
+.nav-profile-dropdown {
+    top: 23px;
+    position: absolute;
+    display: none;
+    right: -3;
+    z-index: 1;
+}
+.nav-profile-dropdown li{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer; 
+}
+.nav-profile-dropdown li:hover{
+    color: tomato;
+}
+.navbar-profile:hover .nav-profile-dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff2ef;
+    padding :12px 25px;
+    border-radius: 4px;
+    border: 1px solid tomato;
+    outline: 2px solid white;
+    list-style-type: none;
+}

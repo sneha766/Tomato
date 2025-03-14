@@ -1,0 +1,27 @@
+@import "tailwindcss";
+.item-title{
+    margin-top: 70px;
+    color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+}
+.cart-items-item{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+}
+.cart-total{
+    margin-top: 50px;
+}
+.some{
+    margin-top: 20px;
+}
+.some button{
+    margin-top: 5px;
+}
+.cart-promocode input{
+  margin-top:10px;
+  padding-left: 10px;
+}

@@ -1,0 +1,101 @@
+@import "tailwindcss";
+.header{
+    height: 400px;
+    background-image: url(../header_img.png);
+    background-size: cover;
+}
+.header-contents{
+    animation: fadein 3s ;
+}
+@media (max-width:620px) {
+    .header{
+        height:30vw;
+    }
+    .header-contents{
+        max-width: 75%;
+        top :12px;
+        line-height: 10px;
+    }
+    h2{
+        font-size: 10px;
+    }
+    p{
+        display: none;
+    }
+    button{
+        width:60px;
+        height : 15px;
+        font-size: 8px;
+    }
+}
+
+@media (max-width:1020px) {
+    .header{
+        height:25vw;
+    }
+    .header-contents{
+        max-width: 65%;
+        top :42px;
+        line-height: 14px;
+    }
+    h2{
+        font-size: 50px;
+        line-height: 42px;
+    }
+    p{
+        font-size: 10px;
+        width: 300px;
+    }
+    button{
+        width:100px;
+        height : 25px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:900px) {
+    .header{
+        height:22vw;
+    }
+    .header-contents{
+        max-width: 65%;
+        top :18px;
+        line-height: 14px;
+    }
+    h2{
+        font-size: 23px;
+        line-height: 25px;
+    }
+    p{
+        font-size: 10px;
+        width: 250px;
+    }
+    button{
+        width:70px;
+        height : 20px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:900px) {
+    .header{
+        height:23vw;
+    }
+    .header-contents{
+        max-width: 65%;
+        top :18px;
+        line-height: 14px;
+    }
+    h2{
+        font-size: 23px;
+        line-height: 25px;
+    }
+    p{
+        display: none;
+    }
+    button{
+        width:70px;
+        height : 20px;
+        font-size: 10px;
+    }
+}

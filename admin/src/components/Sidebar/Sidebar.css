@@ -1,0 +1,30 @@
+@import "tailwindcss";
+.sidebar{
+    width: 20%;
+    height: 100vh;
+    border: 1.5px solid rgb(219, 214, 214);
+    border-top: none;
+}
+.sidebar-options{
+    
+    display: grid;
+    row-gap: 20px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.sidebar-option{
+    width: 200px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border : 1.5px solid rgb(207, 202, 202);
+    padding: 5px;
+    padding-right: 80px;
+}
+.sidebar-option img{
+    width: 20px;
+    height: 20px;
+}
+.active{
+    background-color: #fff0ed;
+    border: 1px solid tomato;
+}

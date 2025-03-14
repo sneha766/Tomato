@@ -1,0 +1,15 @@
+@import "tailwindcss";
+.add{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.add p{
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.t{
+    padding-left: 10px;
+}
+.b{
+    margin-top: 20px;
+}

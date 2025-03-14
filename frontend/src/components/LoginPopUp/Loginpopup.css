@@ -1,0 +1,44 @@
+@import "tailwindcss";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.loginpopup{
+    background-color: #00000090;
+}
+.login-container{
+    padding: 20px;
+    border-radius: 9px;
+    border: 1px solid gray;
+}
+.login-title img{
+    position: relative;
+    left: 320px;
+    bottom: 50px;
+    background-color: white;
+}
+.login-inputs input{
+    width: 98%;
+    height: 35px;
+    background-color: white;
+    padding-left: 10px;
+    border-radius: 25px;
+    border : 1px solid black;
+}
+.login-container button{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.login-container button:hover{
+    box-shadow: 2px 2px  2px rgb(219, 213, 213);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.login-condition{
+    margin-top: 10px;
+}
+.login-condition span{
+    padding-left: 10px;
+}
